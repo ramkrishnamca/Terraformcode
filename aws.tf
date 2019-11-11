@@ -3,6 +3,7 @@
 
 variable "AWS_ACCESS_KEY" {}
 variable "AWS_SECRET_KEY" {}
+variable "AWS_Rama_KEY" {}
 
 provider "aws" {
   region = "us-east-1"
